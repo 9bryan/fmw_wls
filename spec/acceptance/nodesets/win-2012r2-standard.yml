@@ -1,0 +1,17 @@
+HOSTS:
+  win-2012r2-standard:
+    roles:
+      - agent
+      - default
+    platform:     windows-server-amd64
+    box:          win2012r2_cygwin
+    hypervisor:   vagrant
+    user:         vagrant
+    is_cygwin:    true
+    ip:           '10.255.33.129'
+
+CONFIG:
+  type:            foss
+  vagrant_memsize: 4096
+  log_level:       debug
+

@@ -1,0 +1,11 @@
+fixtures:
+  repositories:
+    stdlib:
+      repo: 'git://github.com/puppetlabs/puppetlabs-stdlib.git'
+      ref: '4.1.0'
+    registry:
+      repo: 'git://github.com/puppetlabs/puppetlabs-registry.git'
+      ref: '1.1.0'
+  symlinks:
+    fmw_wls: "#{source_dir}"
+    fmw_jdk: "#{source_dir}/../fmw_jdk"

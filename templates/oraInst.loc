@@ -1,0 +1,2 @@
+inventory_loc=<%= scope.lookupvar('fmw_wls::ora_inventory_dir') %>
+inst_group=<%= scope.lookupvar('fmw_wls::os_group') %>
